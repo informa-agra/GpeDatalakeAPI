@@ -1,0 +1,27 @@
+﻿{
+  "Title": "GPE DataLake API",
+  "ConnectionStrings": {
+    "main1": "connection to db here",
+    "main2": "connection to db here"
+  },
+  "Settings": {
+    "dev": {
+      "dataLakeAccount": "markit/resellers/ihsmarkit_marketdashboard_inbound/accounts/restapi.dev",
+      "dataLakePassword": "i34753$D8t4hg%e7rHGG",
+      "dataLakeBase": "https://feed.ihsmarkit.com",
+      "env": "dev"
+    },
+    "qa": {
+      "dataLakeAccount": "markit/resellers/ihsmarkit_marketdashboard_inbound/accounts/restapi.qa",
+      "dataLakePassword": "p2OSTAJefre$i&$aw!Et",
+      "dataLakeBase": "https://feed.ihsmarkit.com",
+      "env": "qa"
+    },
+    "prod": {
+      "dataLakeAccount": "markit/resellers/ihsmarkit_marketdashboard_inbound/accounts/restapi.prod",
+      "dataLakePassword": "p2OSTAJefre$i&$aw!Et",
+      "dataLakeBase": "https://feed.ihsmarkit.com",
+      "env": "prod"
+    } 
+  }
+} 
